@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pablohenao.turismo_jardin.FragmentHoteles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="@color/paleturquoise"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Hacienda Balandú"
+            android:textColor="@color/darkblue"
+            android:textAppearance="@style/mifuente2"
+            android:id="@+id/txthotel"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/hotel_haciendabalandu1"
+                    android:layout_height="160dp"
+                    android:id="@+id/imagen1_hotel" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/hotel_haciendabalandu2"
+                    android:id="@+id/imagen2_hotel"/>
+                <!--         android:layout_height="79dp" -->
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_height="320dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="60dp"
+                    android:textAppearance="@style/mifuente"
+                    android:text="@string/hotel1info"
+                    android:id="@+id/txtinfo"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Hotel Jardín"
+            android:textColor="@color/darkblue"
+            android:textAppearance="@style/mifuente2"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/hotel_jardin1"
+                    android:layout_height="160dp"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/hotel_jardin2"
+                    />
+                <!--         android:layout_height="79dp" -->
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_height="320dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="60dp"
+                    android:textAppearance="@style/mifuente"
+                    android:text="@string/hotel3info"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Balcones del Parque"
+            android:textColor="@color/darkblue"
+            android:textAppearance="@style/mifuente2"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="90dp"
+            >
+
+            <LinearLayout
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/hotel_balconesdelparque1"
+                    android:layout_height="160dp"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/hotel_balconesdelparque2"
+                    />
+                <!--         android:layout_height="79dp" -->
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_height="320dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="60dp"
+                    android:textAppearance="@style/mifuente"
+                    android:text="@string/hotel2info"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

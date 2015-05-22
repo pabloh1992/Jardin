@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pablohenao.jardin.FragmentBares"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="@color/paleturquoise"
+        android:layout_height="match_parent">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/mifuente2"
+            android:text="Estadero la Valdivia"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                android:src="@drawable/bar_trucheria_valdivia1"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/mifuente"
+                android:text="@string/bar1info"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="60dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                android:layout_marginBottom="50dp"
+                android:src="@drawable/bar_trucheria_valdivia2"
+                />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/mifuente2"
+            android:text="La Truchería"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                android:src="@drawable/bar_latrucheria1"
+            />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/mifuente"
+                android:text="@string/bar2info"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="60dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                android:src="@drawable/bar_latrucheria2"
+                android:layout_marginBottom="50dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/mifuente2"
+            android:text="La Argelía"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                android:src="@drawable/bar_argelia1"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/mifuente"
+                android:text="@string/bar3info"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="60dp"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                android:layout_marginBottom="50dp"
+                android:src="@drawable/bar_argelia2"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

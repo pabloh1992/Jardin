@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Turismo_Jardin</string>
+    <string name="action_settings">Settings</string>
+    <string name="bienvenida">Welcome to Jardín</string>
+    <string name="jardininfo">Check here Jardín Tourist sites for you to plan well your stay in this beautiful town of Antioquia. There are plenty things to do: nature walks, estaderos and trucheras, bird watching, swimming pools, rivers, paragliding, museums and monuments known, aerial cable and pulley. We hope you enjoy your trip!!</string>
+
+    <string name="hoteles">Hotels</string>
+    <string name="title_activity_hoteles">Hotels</string>
+    <string name="opcion">Choose an option</string>
+    <string-array name="hoteles_array">
+        <item>Hotel Hacienda Balandú</item>
+        <item>Hotel Balcones del Parque</item>
+        <item>Hotel Jardín</item>
+    </string-array>
+<string name="hotel1info">
+
+\nPhone Number:	845 6850 \n
+Address:	Km 1, vía Jardín Ríosucio  800 mts from the town\n
+Services:\n
+Accommodation\n
+Pool, Steam Bath, Sauna and Jacuzzi\n
+Restaurant, Rancho, Bar, Fonda and Milling Season\n
+Farm and Lake\n
+Volleyball court and soccer field\n
+Billiards, table tennis and board games\n
+</string>
+
+<string name="hotel2info">
+
+ \nPhone Numbers:	3113094338 - 8456844\n
+ Address:	Parque principal Jardín\n
+ Website:	www.balconesdelparque.com\n
+ Total capacity: 44 people, located in double and triple rooms with private bathroom, hot water, cable TV and mini bar.\n
+Services: Restaurant, Wet Area (Steambath and Jacuzzi), games and reading room, Wireless Internet, Room Service.\n
+
+
+</string>
+
+    <string name="hotel3info">
+
+ \nPhone Number:	3103806724
+ \nAddress:	Carrera 3 # 9-14 - Parque Principal
+ \nWebsite:	www.hoteljardin.com.co
+ \nE-Mail:	info@hoteljardin.com.co
+
+\nCapacity: 60 People
+\nFully equipped apartments in the Hotel.
+\nFor security the hotel is protected with video cameras.
+\nWe have wireless Internet service.
+
+
+    </string>
+    <string name="title_activity_bares">Restaurants - Bars - Trucherías</string>
+    <string name="bares">Bars</string>
+    <string-array name="bares_array">
+        <item>Estadero la Valdivia</item>
+        <item>La Truchería</item>
+        <item>La Argelía</item>
+    </string-array>
+
+    <string name="bar1info">
+        \nPhone Numbers:	 314-8647837 / 57 (4) 8455790 / 310-4422540
+        \nAddress:	 Km 3 vía Jardín Riosucio
+        \nServices:
+        \n Bar and Restaurant
+         \nTruchería, Sport Fishing and Boats
+         \nVolleyball court and soccer field
+         \nPlaygrounds and green areas
+         \nWeekends and holidays: horse riding.\n
+    </string>
+
+    <string name="bar2info">
+         \nPhone Number:	8455159
+         \nAddress:	Kilómetro 5 vía Riosucio
+         \nContact:	Carmenza Diaz
+         \nE-Mail:	carmenza-diaz@hotmail.com
+        \n Total capacity: 200 people
+         \n Services:
+         \n Sport Fishing
+         \n Restaurant and Bar
+         \n Paintball
+         \n Camping \n
+    </string>
+
+    <string name="bar3info">
+         \nPhone Numbers:	 3206560429 / +5748456746 / 3122227454
+         \nContact:	 Roberto Castaño
+         \nE-Mail:	 argeliajardin@gmail.com
+         \nFacebook: https://www.facebook.com/laargelia
+         \nAddress:	 Km 1 vereda la salada Jardín
+         \nServices:
+        \nRestaurant - Bar - Truchería
+        \nNature Walks
+        \nMilling\n
+    </string>
+    <string name="title_activity_turismo">TurismoActivity</string>
+
+    <string name="turismo">Tourist Sites</string>
+
+    <string-array name="turismo_array">
+        <item>Cueva del Esplendor</item>
+        <item>Basilica of the Immaculate Conception</item>
+        <item>Cueva de los Guácharos</item>
+    </string-array>
+
+    <string name="turismo1info">
+
+    \nThe route to arrive at La Cueva del Esplendor is a terrific show, and the cave itself honors its name. To get there you can go on horseback or on foot along a bridle path accompanied by an expert guide.
+     \nLocation: Vereda La Linda - Northeast of Jardín 10 kms
+     \nInformation and Reservations
+    \n2516344 - 3003524763\n
+
+    </string>
+
+    <string name="turismo2info">
+
+        \nIs a neo-Gothic temple with an area of 1.680m²
+ \nThe basilica has 128 windows and skylights and two Hamburger bells. The statue of San Juan Bautista, the holy water font, the tabernacle, and the pulpit are made out of Carrara marble. Its interior is painted turquoise. Its two towers and crosses are made of aluminum.\n
+
+    </string>
+
+    <string name="turismo3info">
+
+        \nIs located in the upper part of the gorge La Salada in the village of the same name five kilometers from the county seat.
+         \nThis is a waterfall that falls between the mountains rising around a cave inhabited by Guácharos
+         \nTime to visit approx. 3 to 4 hours\n
+
+    </string>
+    <string name="title_activity_acerca">About Us</string>
+
+    <string name="acerca">About Us</string>
+    <string name="acercainfo">"Turismo_Jardin" developed by Pablo Henao.</string>
+
+    <string name="title_activity_demografia">Demographics</string>
+    <string name="informacion">Information</string>
+
+    <string name="demografiainfo">
+
+
+        \nAccording to figures presented by the DANE 2005 census, the ethnographic makeup of the township is as follows:
+
+\nMestizo and White: 89.3\%%
+\nIndigenous: 10\%%
+\nAfro-Colombian: 0.7\%%
+
+</string>
+
+    <string name="Ok">Ok</string>
+
+
+</resources>

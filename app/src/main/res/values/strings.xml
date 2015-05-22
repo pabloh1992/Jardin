@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Turismo_Jardin</string>
+    <string name="action_settings">Settings</string>
+    <string name="bienvenida">Bienvenido a Jardín</string>
+    <string name="jardininfo">Consulta aquí los sitios Turísticos de Jardín para que planees bien tu estadía en este hermoso pueblo de Antioquia.  Hay mucho por hacer: caminatas ecológicas, estaderos y trucheras, avistamiento de aves, piscinas, ríos, parapentismo, museos y monumentos por conocer, cable aéreo y garrucha.  Esperamos que disfrutes tu viaje!!</string>
+
+    <string name="hoteles">Hoteles</string>
+    <string name="title_activity_hoteles">Hoteles</string>
+    <string name="opcion">Escoja una opción</string>
+    <string-array name="hoteles_array">
+        <item>Hotel Hacienda Balandú</item>
+        <item>Hotel Balcones del Parque</item>
+        <item>Hotel Jardín</item>
+    </string-array>
+<string name="hotel1info">
+
+\nTeléfono:	845 6850 \n
+Dirección:	Km 1, vía Jardín Ríosucio a 800 mts del Pueblo\n
+Servicios:\n
+            Alojamiento\n
+            Piscina, Turco, Sauna y Jacuzzi\n
+            Restaurante, Rancho, Bar, Fonda y Molienda\n
+            Granja y Lago\n
+            Cancha de Fútbol y Voleiplaya\n
+            Billar, Pingpong y juegos de mesa\n
+</string>
+
+<string name="hotel2info">
+
+ \nTeléfonos:	3113094338 - 8456844\n
+ Dirección:	Parque principal Jardín\n
+ Página Web:	www.balconesdelparque.com\n
+ Capacidad total: 44 personas, ubicados en habitaciones dobles y triples con baño privado, agua caliente, televisión por cable y mini bar.\n
+ Servicios:  Restaurante, Zona Humeda (Turco y jacuzzi), Sala de juegos y lectura, Internet Inalámbrico, Room Service.\n
+
+
+</string>
+
+    <string name="hotel3info">
+
+ \nTeléfono:	3103806724
+ \nDirección:	Carrera 3 # 9-14 - Parque Principal
+ \nPágina Web:	www.hoteljardin.com.co
+ \nE-Mail:	info@hoteljardin.com.co
+
+ \nTipo Alojamiento:	Apartamentos
+ \nCapacidad:	 60 Personas
+\nApartamentos en el Hotel Completamente dotados.
+\nPara su tranquilidad y seguridad el hotel se encuentra protegido con vídeo-cámaras.
+\nContamos con servicio de Internet inalámbrico.
+
+
+    </string>
+    <string name="title_activity_bares">Restaurantes - Bares - Trucherías</string>
+    <string name="bares">Bares</string>
+    <string-array name="bares_array">
+        <item>Estadero la Valdivia</item>
+        <item>La Truchería</item>
+        <item>La Argelía</item>
+    </string-array>
+
+    <string name="bar1info">
+        \nTeléfonos:	 314-8647837 / 57 (4) 8455790 / 310-4422540
+        \nDirección:	 KM 3 vía Jardín Riosucio
+        \nServicios:
+        \nBar y Restaurante
+        \nTruchería, Pesca deportiva y Botes
+        \nCancha de voleiplaya y Cancha de fútbol
+        \nJuegos infantiles y Amplias zonas verdes
+        \nFines de semana y festivos: alquiler de caballos\n
+    </string>
+
+    <string name="bar2info">
+         \nTeléfono	8455159
+         \nDirección	Kilómetro 5 vía Riosucio
+         \nContactos:	Carmenza Diaz
+         \nE-Mail:	carmenza-diaz@hotmail.com
+        \nCapacidad total:	 200 personas
+        \nServicios:
+        \nPesca Deportiva
+        \nRestaurante y Bar
+        \nPaintball
+        \nCamping\n
+    </string>
+
+    <string name="bar3info">
+         \nTeléfonos:	 3206560429 / +5748456746 / 3122227454
+         \nContacto:	 Roberto Castaño
+         \nE-Mail:	 argeliajardin@gmail.com
+         \nFacebook: https://www.facebook.com/laargelia
+         \nDirección	 Km 1 vereda la salada Jardín
+         \nServicios:
+        \nRestaurante - Bar
+        \nTruchería
+        \nCaminatas ecológicas
+        \nMolienda\n
+    </string>
+    <string name="title_activity_turismo">TurismoActivity</string>
+
+    <string name="turismo">Turismo</string>
+
+    <string-array name="turismo_array">
+        <item>Cueva del Esplendor</item>
+        <item>Basílica de la Inmaculada Concepción</item>
+        <item>Cueva de los Guácharos</item>
+    </string-array>
+
+    <string name="turismo1info">
+
+    \nEl recorrido para llegar a La Cueva del Esplendor es un espectáculo fabuloso, y la cueva como tal hace verdadero honor a su nombre. Para llegar a ella se puede ir a caballo o a pie por un camino de herradura acompañados por un guía experto.
+    \nUbicación: Vereda La Linda - Nororiente del municipio de Jardín a 10 kms de la cabecera municipal.
+    \nInformación y Reservas
+    \n2516344 - 3003524763\n
+
+    </string>
+
+    <string name="turismo2info">
+
+    \nSe trata de un templo de estilo neogótico con un área de 1.680m²
+    \nPosee 128 ventanas; 32 capiteles y arcos recubiertos en oro de 18 quilates y dos campanas. Igualmente, fueron fabricados en mármol de Carrara: la estatua de San Juan Bautista, la pila de agua bendita, el altar mayor, el Sagrario, el expositorio, 12 ángeles custodios y el púlpito, el baptisterio y las gradas del comulgatorio.2 Las dos torres y sus cruces son de aluminio.
+    </string>
+
+    <string name="turismo3info">
+
+        \nSe encuentra en la parte alta de la quebrada La Salada en la vereda del mismo nombre a cinco kilómetros de la cabecera municipal.
+        \nSe trata de una cascada que cae entre las montañas que se levantan alrededor de una cueva, donde habitan los Guácharos
+        \nTiempo aproximado para visitarla: 3 a 4 horas.\n
+
+    </string>
+    <string name="title_activity_acerca">Acerca De</string>
+
+    <string name="acerca">Acerca De</string>
+    <string name="acercainfo">"Turismo_Jardin" desarrollada por Pablo Henao.</string>
+    <string name="title_activity_demografia">Demografia</string>
+    <string name="informacion">Información</string>
+    <string name="principal">Principal</string>
+    <string name="demografiainfo">
+
+        \nPoblación Total: 14.177 hab
+\nZona urbana: 92,0/%%
+\nZona rural: 83,7/%%
+\nEtnografía
+\nSegún las cifras presentadas por el DANE del censo 2005, la composición etnográfica del municipio es:
+\nMestizos y Blancos (89,3/%%)
+\nIndígenas (10,0/%%)
+\nAfrocolombianos (0,7/%%)
+
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Ok">Ok</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_guia_turistica">guiaTuristica</string>
+
+
+</resources>
+
