@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.widget.Toast;
-
 import com.pablohenao.jardin.dummy.DummyContent;
 
 
@@ -25,13 +24,14 @@ import com.pablohenao.jardin.dummy.DummyContent;
  * to listen for item selections.
  */
 public class ItemListActivity extends FragmentActivity
-        implements ItemListFragment.Callbacks {
+        implements ItemListFragment.Callbacks{
 
     /**
      * Whether or not the activity is in two-pane mode, i.e. running on a tablet
      * device.
      */
     private boolean mTwoPane;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +67,7 @@ public class ItemListActivity extends FragmentActivity
             DummyContent.addItem(new DummyContent.DummyItem("4", getResources().getString(R.string.turismo)));
             DummyContent.addItem(new DummyContent.DummyItem("5", getResources().getString(R.string.title_activity_demografia)));
             DummyContent.addItem(new DummyContent.DummyItem("6", getResources().getString(R.string.acerca)));
+            DummyContent.addItem(new DummyContent.DummyItem("7", getResources().getString(R.string.mapa)));
 
         }
 
@@ -98,28 +99,44 @@ public class ItemListActivity extends FragmentActivity
             {
                 case "1":
                     FragmentPrincipal fragmentmain = new FragmentPrincipal();
-                    getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmentmain).commit();
+            //        getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmentmain).commit();
+                    getFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmentmain).commit();
                     break;
                 case "2":
                     FragmentHoteles fragmenthotel = new FragmentHoteles();
-                    getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmenthotel).commit();
+                    getFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmenthotel).commit();
                     break;
                 case "3":
                     FragmentBares fragmentbar = new FragmentBares();
-                    getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmentbar).commit();
+                    getFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmentbar).commit();
                     break;
                 case "4":
                     FragmentTurismo fragmentsitio = new FragmentTurismo();
-                    getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmentsitio).commit();
+                    getFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmentsitio).commit();
                     break;
                 case "5":
                     FragmentDemografia fragmentdemography = new FragmentDemografia();
-                    getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmentdemography).commit();
+                    getFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmentdemography).commit();
                     break;
                 case "6":
                     FragmentAcerca fragmentabout = new FragmentAcerca();
-                    getSupportFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmentabout).commit();
+                    getFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmentabout).commit();
                     break;
+                case "7":
+
+          //          Intent i = new Intent(this, MapActivity.class);
+          //          startActivity(i);
+
+                    FragmentMapa fragmentmap = new FragmentMapa();
+                    getFragmentManager().beginTransaction().replace(R.id.item_detail_container, fragmentmap).commit();
+                    break;
+          /*          map = ((MapFragment)getFragmentManager().findFragmentById(R.id.map)).getMap();
+                    map.addMarker(new MarkerOptions().position(LOCATION_UDEA).title("Universidad de Antioquia").snippet("Calle 67 # 53 -108"));
+                    map.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+                    cameraUpdate = CameraUpdateFactory.newLatLngZoom(LOCATION_UDEA, 16);
+                    map.animateCamera(cameraUpdate);
+                    break;
+         */
             }
 
         } else {

@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.google.android.gms.maps.CameraUpdate;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.model.LatLng;
 import com.pablohenao.jardin.dummy.DummyContent;
 
 
@@ -43,6 +46,10 @@ public class ItemListFragment extends ListFragment {
      * implement. This mechanism allows activities to be notified of item
      * selections.
      */
+
+
+
+
     public interface Callbacks {
         /**
          * Callback for when an item has been selected.

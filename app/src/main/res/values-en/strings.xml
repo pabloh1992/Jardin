@@ -134,7 +134,7 @@ Services: Restaurant, Wet Area (Steambath and Jacuzzi), games and reading room, 
 
     <string name="title_activity_demografia">Demographics</string>
     <string name="informacion">Information</string>
-
+    <string name="principal">Main</string>
     <string name="demografiainfo">
 
 
@@ -146,7 +146,15 @@ Services: Restaurant, Wet Area (Steambath and Jacuzzi), games and reading room, 
 
 </string>
 
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_guia_turistica">guiaTuristica</string>
+
     <string name="Ok">Ok</string>
+    <string name="mapa">Map</string>
+    <string name="title_activity_splash_screen">Turismo_Jardin</string>
+    <string name="title_activity_map">MapActivity</string>
+
 
 
 </resources>

@@ -7,11 +7,8 @@
     android:orientation="vertical">
 
     <ImageView
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:layout_marginTop="125dp"
-        android:id="@+id/imageView"
-        android:src="@drawable/logojardin"
-        android:layout_gravity="center_horizontal" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logojardin"/>
 
 </LinearLayout>

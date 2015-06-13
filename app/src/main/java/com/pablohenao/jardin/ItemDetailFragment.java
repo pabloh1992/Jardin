@@ -2,13 +2,30 @@ package com.pablohenao.jardin;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
+
+import android.app.Fragment;
+import android.app.FragmentTransaction;
+import android.app.FragmentManager;
+
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+//import android.support.v4.app.Fragment;
+//import android.support.v4.app.FragmentManager;
+//import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import android.app.Fragment;
+//import android.app.FragmentManager;
+import android.app.FragmentTransaction;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+
 
 import com.pablohenao.jardin.dummy.DummyContent;
 
@@ -76,23 +93,15 @@ public class ItemDetailFragment extends Fragment {
                 FragmentDemografia fragmentdemography = new FragmentDemografia();
                 fragmentTransaction.replace(android.R.id.content,fragmentdemography).commit();
             }else if (mItem.item_name.equals(getResources().getString(R.string.acerca))){
-
                 FragmentAcerca fragmentdemography = new FragmentAcerca();
                 fragmentTransaction.replace(android.R.id.content,fragmentdemography).commit();
-        //        about fragmentaboutus = new about();
-        //        fragmentTransaction.replace(android.R.id.content,fragmentaboutus).commit();
+            }
+            else if (mItem.item_name.equals(getResources().getString(R.string.mapa))){
+               FragmentMapa fragmentmap = new FragmentMapa();
+                fragmentTransaction.replace(android.R.id.content,fragmentmap).commit();
 
-         /*       new AlertDialog.Builder(this)
-                        .setTitle(getResources().getString(R.string.acerca))
-                        .setMessage(getResources().getString(R.string.acercainfo))
-                        .setNeutralButton(getResources().getString(R.string.Ok), new DialogInterface.OnClickListener() {
-
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                // TODO Auto-generated method stub
-
-                            }
-                        }).show(); */
+      //          Intent i = new Intent(this, MapActivity.class);
+      //          startActivity(i);
 
             }
         }
